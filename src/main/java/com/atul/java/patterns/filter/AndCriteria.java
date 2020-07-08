@@ -1,7 +1,11 @@
 package com.atul.java.patterns.filter;
 
 import java.util.List;
-
+/**
+ * 
+ * @author atulgupta
+ *
+ */
 public class AndCriteria implements Criteria{
 	private Criteria criteria;
 	private Criteria otherCriteria;
