@@ -1,5 +1,7 @@
 package com.atul.java.patterns.creational.composite;
 
+import java.awt.*;
+
 public class Rectangle extends BaseShape {
     public int width;
     public int height;

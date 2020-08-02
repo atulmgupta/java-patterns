@@ -1,5 +1,7 @@
 package com.atul.java.patterns.creational.composite;
 
+import java.awt.*;
+
 public interface Shape {
 	int getX();
 

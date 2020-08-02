@@ -1,5 +1,7 @@
 package com.atul.java.patterns.creational.composite;
 
+import java.awt.*;
+
 abstract class BaseShape implements Shape {
 	public int x;
     public int y;

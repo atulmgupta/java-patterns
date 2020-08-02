@@ -1,5 +1,7 @@
 package com.atul.java.patterns.creational.composite;
 
+import java.awt.*;
+
 public class Dot extends BaseShape {
     private final int DOT_SIZE = 3;
 
