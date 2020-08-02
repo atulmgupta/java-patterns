@@ -1,5 +1,5 @@
 package com.atul.java.patterns.creational.builder;
 
-public class Boeing747 {
-
+public enum Type {
+	CITY_CAR, SPORTS_CAR, SUV
 }
