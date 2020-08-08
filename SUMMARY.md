@@ -10,9 +10,7 @@
 
 ## Structural
 
-* [Untitled](structural/untitled.md)
-
----
-
-* [Proxy](proxy.md)
+* [Proxy](structural/proxy.md)
+* [Structu](structural/untitled/README.md)
+  * [Proxy](structural/untitled/proxy.md)
 
