@@ -1,4 +1,4 @@
-package com.atul.java.patterns.creational.builder.prototype;
+package com.atul.java.patterns.creational.Prototype;
 
 public class Rectangle extends Shape {
     public int width;

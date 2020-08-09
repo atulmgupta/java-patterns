@@ -1,10 +1,10 @@
-package com.atul.java.patterns.creational.builder.prototype;
+package com.atul.java.patterns.creational.Prototype;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Demo {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         List<Shape> shapes = new ArrayList<>();
         List<Shape> shapesCopy = new ArrayList<>();
 
