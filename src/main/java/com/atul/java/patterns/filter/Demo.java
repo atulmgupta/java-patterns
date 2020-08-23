@@ -2,7 +2,7 @@ package com.atul.java.patterns.filter;
 
 import java.util.List;
 
-public class LaptopScanner {
+public class Demo {
     public static void main(String[] args) {
         List<Laptop> laptops = LaptopFactory.manufactureInBulk();
         AndCriteria searchCriteria = new AndCriteria(new Ram4GB(), new Macintosh(), new I7Processor());
