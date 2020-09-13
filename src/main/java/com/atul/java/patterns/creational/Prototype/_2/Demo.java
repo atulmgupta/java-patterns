@@ -1,18 +1,37 @@
 package com.atul.java.patterns.creational.Prototype._2;
-
+/**
+ * @author atulgupta
+ * 
+ * 
+ * Prototype Pattern
+ * Lighter and faster object
+ * 
+ * 
+ * *******  Pitfalls  *******
+ * used with another patterns
+ * * Registry
+ * Shallow VS Deep Copy
+ * 
+ * 
+ */
 public class Demo {
-	public static void main(String[] args)  {
-	    try {
-	        Staff staff = new Staff();
-	        System.out.println("number of staff in: "
-	                    + staff.getStaffNames().size());
-	        Staff copiedStaff = (Staff)staff.clone();
-	        System.out.println("number of staff: "
-	                    + copiedStaff.getStaffNames().size());
-	        System.out.println(staff.hashCode());
-	            System.out.println(copiedStaff.hashCode());
-	    } catch (CloneNotSupportedException e) {
-	        e.printStackTrace();
-	    }
+	public static void main(String[] args) {
+		Registry registry = new Registry();
+		Movie movie = (Movie) registry.createItem("Movie");
+		movie.setTitle("Creational Patterns in java");
+
+		System.out.println(movie);
+		System.out.println(movie.getRuntime());
+		System.out.println(movie.getTitle());
+		System.out.println(movie.getUrl());
+
+		Movie anotherMovie = (Movie) registry.createItem("Movie");
+		anotherMovie.setTitle("Gang of Four");
+		
+		System.out.println(anotherMovie);
+		System.out.println(anotherMovie.getRuntime());
+		System.out.println(anotherMovie.getTitle());
+		System.out.println(anotherMovie.getUrl());
+		
 	}
 }
