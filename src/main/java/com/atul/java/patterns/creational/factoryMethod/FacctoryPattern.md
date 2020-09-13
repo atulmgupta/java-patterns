@@ -12,3 +12,8 @@
  Defer to subclasses
  Common interface
  Sepcified by architecture,implemented by user
+
+ Examples
+ Calendar
+ ResourceBundle
+ NumberFormat
