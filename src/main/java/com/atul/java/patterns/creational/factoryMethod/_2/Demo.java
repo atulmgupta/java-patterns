@@ -1,5 +1,22 @@
 package com.atul.java.patterns.creational.factoryMethod._2;
-
+/**
+ * 
+ * @author atulgupta
+ * 
+ * Factory Pattern
+ * 2nd most used design pattern
+ * 
+ * Guarantee unique instance
+ * Often refactored in
+ * can help with performance issues
+ * 
+ * 
+ * Concept
+ * 
+ * Doesnt expose instantation logic
+ * 
+ *
+ */
 public class Demo {
 	public static void main(String[] args) {
 		Pastry baklava = PastryFactory.CreateInstance(PastryType.Baklava);
