@@ -1,4 +1,4 @@
-package com.atul.java.patterns._3_behavioral._6_observer;
+package com.atul.java.patterns._3_behavioral._6_observer._1;
 
 import java.io.File;
 import java.util.ArrayList;

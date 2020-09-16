@@ -1,4 +1,4 @@
-package com.atul.java.patterns._3_behavioral._6_observer;
+package com.atul.java.patterns._3_behavioral._6_observer._1;
 
 public class Demo {
 	public static void main(String[] args) {
