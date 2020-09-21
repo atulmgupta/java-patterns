@@ -1,6 +1,8 @@
-# Design Patterns GOf4
-## Creational Patterns...........
+# Initial page
+
+## Creational Patterns
 
 ## Structural Patterns
 
 ## Behavioral Patterns
+

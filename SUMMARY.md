@@ -2,7 +2,6 @@
 
 * [Initial page](README.md)
 
-
 ## Creational Design Patterns <a id="creational-design-patterns-1"></a>
 
 * [Creational Design Patterns](creational-design-patterns-1/creational-design-patterns/README.md)
@@ -10,6 +9,7 @@
 
 ## Structural
 
-* [Structural Design Pattern](structural/untitled/README.md)
-  * [Proxy](structural/untitled/proxy.md)
+* [Adapter](structural/adapter.md)
+* [Structural Design Pattern](structural/structural-design-pattern/README.md)
+  * [Proxy](structural/structural-design-pattern/proxy.md)
 
